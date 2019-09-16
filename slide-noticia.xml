@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<categorias>
+
+			<noticia>
+				<id>604</id>
+				<url_imagem>img/vagas-emprego.jpg</url_imagem>
+				<resumo_titulo>Vagas de emprego</resumo_titulo>
+				<titulonormal>Vagas de emprego do sistema publico de emprego e renda do DF</titulonormal>
+			</noticia>  
+			
+
+			<noticia>
+				<id>655</id>
+				<url_imagem>images/Grevedf01.jpg</url_imagem>
+				<resumo_titulo>Grevedf01</resumo_titulo>
+				<titulonormal>Greve no DF: sindicatos gritam, Buriti se cala e o cidadão sofre</titulonormal>
+			</noticia>      
+	
+      		
+			
+
+			<noticia>
+				<id>656</id>
+				<url_imagem>images/Rumo Marcha das Mulheres.jpg</url_imagem>
+				<resumo_titulo>Rumo Marcha</resumo_titulo>
+				<titulonormal>Rumo Marcha das Mulheres</titulonormal>
+			</noticia>
+			
+			<noticia>
+			    <id>658</id>
+				<url_imagem>images/Maisbancarios.jpg</url_imagem>
+				<resumo_titulo>Mais bancarios</resumo_titulo>
+				<titulonormal>Mais bancários aderem à paralisação</titulonormal>
+			</noticia>
+			
+	</categorias>
+		

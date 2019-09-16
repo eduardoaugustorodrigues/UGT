@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Slide</title>
+
+<SCRIPT type=text/javascript src="slide/jquery.js"></SCRIPT>
+<SCRIPT type=text/javascript src="slide/jquery.jshowoff.min.js"></SCRIPT>
+ <LINK rel=stylesheet type=text/css href="slide/generics.css">
+<LINK rel=stylesheet type=text/css href="slide/jshowoff.css">
+
+</head>
+
+<body onLoad="vertical();">
+
+<DIV class=DV_main>
+<DIV class=DV_home>
+<DIV id=demo>
+<DIV id=slidingFeatures>
+<!--
+<DIV title=1>
+<A id=ctl00_ContentPlaceHolder1_A1 href="javascript:void(0);"><IMG src="slide/slide7.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=2>
+<A id=ctl00_ContentPlaceHolder1_A2 href="javascript:void(0);"><IMG src="slide/slide8.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=3>
+<A id=ctl00_ContentPlaceHolder1_A3 href="javascript:void(0);"><IMG src="slide/slide9.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=4>
+<A id=ctl00_ContentPlaceHolder1_A4 href="javascript:void(0);"><IMG src="slide/slide10.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=5>
+<A id=ctl00_ContentPlaceHolder1_A5 href="javascript:void(0);"><IMG src="slide/slide11.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=6>
+<A id=ctl00_ContentPlaceHolder1_A6 href="javascript:void(0);"><IMG src="slide/slide12.jpg" width="960" height="410"></A>
+</DIV>-->
+<?php
+$imagem = 0;
+for ($i = 1; $i <= 65; $i++) {
+$imagem = $imagem +1;
+?>
+<DIV title=<?php echo $i ?>>
+<A id=ctl00_ContentPlaceHolder1_A<?php echo $i ?> href="javascript:void(0);"><IMG src="slide/slide<?php echo $imagem;?>.jpg" width="960" height="410"></A>
+</DIV>
+<?php
+}
+?><!--
+<DIV title=7>
+<A id=ctl00_ContentPlaceHolder1_A7 href="javascript:void(0);"><IMG src="slide/slide13.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=8>
+<A id=ctl00_ContentPlaceHolder1_A8 href="javascript:void(0);"><IMG src="slide/slide1.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=9>
+<A id=ctl00_ContentPlaceHolder1_A9 href="javascript:void(0);"><IMG src="slide/slide2.jpg" width="960" height="410"></A>
+</DIV>
+
+<DIV title=10>
+<A id=ctl00_ContentPlaceHolder1_A10 href="javascript:void(0);"><IMG src="slide/slide3.jpg" width="960" height="410"></A>
+</DIV>-->
+
+</DIV>
+
+<SCRIPT type=text/javascript>
+                $(document).ready(function() {
+                    $('#slidingFeatures').jshowoff({
+                        effect: 'slideLeft',
+                        controlText: { play: '>', pause: '| |', previous: '<<', next: '>>' },
+                        hoverPause: false
+                    });
+                });
+	        </SCRIPT>
+
+<SCRIPT type=text/javascript>
+                $(document).ready(function() {
+                    $('#thumbFeatures').jshowoff({
+                        cssClass: 'thumbFeatures',
+                        effect: 'slideLeft'
+                    });
+                });
+	        </SCRIPT>
+</DIV>
+</DIV>
+</DIV>
+
+
+</body>
+</html>
